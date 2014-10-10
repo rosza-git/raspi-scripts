@@ -1,0 +1,17 @@
+#!/bin/bash
+
+echo -e "\n#####################################"
+echo "#                                   #"
+echo "#  RaspberryPi system informations  #"
+echo "#                                   #"
+echo "#####################################"
+echo -e "\nCPU frequency     : `vcgencmd measure_clock arm`"
+echo "CORE frequency    : `vcgencmd measure_clock core`"
+echo "CORE voltage      : `vcgencmd measure_volts core`"
+echo "CPU temperature   : `vcgencmd measure_temp`"
+echo -e "\nFirmware version : `vcgencmd version`"
+echo -e "\nCoedcs status:"
+echo "`vcgencmd codec_enabled H264`"
+echo "`vcgencmd codec_enabled MPG2`"
+echo "`vcgencmd codec_enabled WVC1`"
+echo -e "\n#####################################\n"
