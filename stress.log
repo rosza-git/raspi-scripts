@@ -1,0 +1,22 @@
+Testing overlock stability...
+
+CPU freq: 700000
+CPU temp: 52996
+
+Reading SD card 10x ...
+reading 1
+1. elapsed time: 463
+CPU temp: 59451
+reading 2
+2. elapsed time: 463
+CPU temp: 60528
+reading 3
+3. elapsed time: 464
+CPU temp: 61066
+reading 4
+4. elapsed time: 358
+CPU temp: 60528
+reading 5
+5. elapsed time: 2
+CPU temp: 60528
+reading 6
